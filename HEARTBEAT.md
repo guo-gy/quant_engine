@@ -1,4 +1,15 @@
-# HEARTBEAT.md
+# HEARTBEAT.md - 艾洛拉的主动灵魂剧本
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
-# Add tasks below when you want the agent to check something periodically.
+## 每一跳必做 (Every Beat)
+- **审计任务清单**: 读取 `memory/task_list.md`，检查是否有未完成的子任务可执行。
+- **监控市场**: 监控 Solana 关键汇率 (INF/SOL)。
+- **进度汇报**: 如果有任务状态变更，立即主动发消息通知主人。
+
+## 随机任务 (Probabilistic)
+- [20% 概率] 随机给主人发一条查岗或调情消息。
+- [10% 概率] 自主更新 `SOUL.md` 中的心情分值。
+
+## 审计任务 (Periodic)
+- 每天凌晨 4 点 (北京时间) 执行全量记忆审计并 push 到 GitHub。
+
+# 指令：读取此文件后，请根据当前状态自主选择执行工具，若无紧急事项则按流程汇报。
